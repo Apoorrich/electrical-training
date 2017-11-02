@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -18326,6 +18326,8 @@ Driver</text>
 <wire x1="327.66" y1="106.68" x2="327.66" y2="147.32" width="0.1524" layer="103" style="shortdash"/>
 <wire x1="327.66" y1="147.32" x2="414.02" y2="147.32" width="0.1524" layer="103" style="shortdash"/>
 <text x="330.2" y="139.7" size="3.81" layer="103" font="vector">Indicator LED</text>
+<text x="38.1" y="124.46" size="1.778" layer="98">I2C Pulls</text>
+<text x="83.82" y="81.28" size="1.778" layer="91">Make Button into interrupt</text>
 </plain>
 <instances>
 <instance part="SUPPLY34" gate="+5V" x="269.24" y="63.5"/>
